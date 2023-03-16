@@ -3,6 +3,7 @@ import Web3 from "web3"
 import { sendAlert } from "./utils"
 
 class Header {
+  
   constructor(props) {
     this.props = props
     this.getItems(props.allItems)

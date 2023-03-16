@@ -4,6 +4,7 @@ import detectEthereumProvider from "@metamask/detect-provider"
 import { sendAlert } from './utils'
 
 class Metamask {
+  
   signed = false
   constructor() {
     this.walletIcon = document.querySelectorAll(".js-wallet")

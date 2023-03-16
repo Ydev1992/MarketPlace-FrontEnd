@@ -28,6 +28,7 @@ class AllInfos {
         const res1 = await axios.get("/item")
         const allItems = res1.data
 
+        
         const res2 = await axios.get("/user")
         const allUsers = res2.data.users
 

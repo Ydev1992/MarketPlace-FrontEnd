@@ -5,6 +5,7 @@ class CopyToClipboard {
   }
 
   events() {
+    
     this.copyBtn.forEach(btn => {
       btn.addEventListener("click", e => this.handleClick(e))
     })

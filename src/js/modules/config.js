@@ -1,6 +1,7 @@
 import axios from "axios"
 
 class Config {
+    
     constructor() {
         axios.defaults.baseURL = "https://testserver.artwise.dog/"
         // axios.defaults.baseURL = "http://202.61.249.136:5000"

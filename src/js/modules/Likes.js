@@ -5,6 +5,7 @@ class Likes {
   }
 
   events() {
+    
     if (this.likes.length > 0) {
       this.likes.forEach(like => {
         like.addEventListener("click", e => this.handleClick(e))
